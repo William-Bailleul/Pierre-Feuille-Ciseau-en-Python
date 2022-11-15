@@ -87,9 +87,9 @@ def pierreFeuilleCiseau():
                     print("Ordinateur",scoreOrdinateur,"; Vous",scoreJoueur)
         #Sinon
         else:
-            #On affche un message d'égalité de manche
+            #ALors on affche un message d'égalité de manche
             print("Egalité...joue mieux")
-            #on affiche le score actuel
+            #Alors on affiche le score actuel
             print("Ordinateur",scoreOrdinateur,"; Vous",scoreJoueur)
     #Si scoreOrdinateur est égal nombrePartiePourGagner      
     if scoreOrdinateur == nombreDePartiePourGagner:
